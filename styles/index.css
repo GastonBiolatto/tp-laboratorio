@@ -1,0 +1,209 @@
+html {
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+    
+}
+body {
+    font-family:'Hero';
+    /* background-image: linear-gradient(to bottom, #0a5376, #85c0de,#ffff); Degradado de rojo a azul */
+    font-size: 100%;
+    min-width: 350px;
+    background-image:url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 90%; 
+      }
+      h1 {
+        font-size: 1.8em; /* Tamaño de fuente reducido para encabezados */
+      }
+    
+      p {
+        font-size: 0.9em; /* Tamaño de fuente reducido para párrafos */
+      }
+    }
+p, h1, h2, h3, h4 {
+    color: rgb(18, 19, 45);
+}
+
+
+/* navbar */
+.navbar{
+    min-width: 350px;
+   }
+   .form-control {
+    background-color:transparent;
+   }
+   .form-control:focus {
+    background-color:transparent;
+   }
+   .form-control:hover {
+    background-color:transparent;
+   }
+.imgfondo {
+     background-image:url(https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_640.jpg);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .A {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+ }
+/* Perfil */
+
+.row {
+    margin: 2em;
+}
+.perfil {
+    display: flex;
+    flex-flow: row wrap;
+    place-content: space-around space-evenly;
+    min-height: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 350px;
+    margin-top: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.list-group-item {
+    font-style: bold;
+}
+.list-group-item span {
+    color: rgb(255, 255, 255);
+}
+
+.cuadro {
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding: 2em;
+    min-width: 70px;
+    }
+.cuadro img {
+    object-fit:cover;
+    width: 100%;
+    height: auto;
+    border-radius: 50%; 
+}
+.img-fluid {
+    padding: .2em;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+min-width: 120px;
+max-width: 160px;
+}
+
+.cuadro2 {
+    align-items: center;
+    text-align: start;
+    margin-top: 3em;
+    min-width: none;
+}
+
+.botonSeguir{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 1.6em;
+    padding-bottom: 1em;
+}
+
+/* publicacion */
+.segundoCuadro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    min-width: auto;
+    color: rgb(255, 255, 255);
+    gap: 3em;
+    
+
+}
+.publicado {
+    display: flex;
+    min-width: 100px;
+}
+.col-7{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row {
+    justify-content: center;
+}
+.posteo {
+    min-width: auto;
+    width: 100%;
+}
+.publicado {
+    color: rgb(255, 255, 255);
+}
+.MG {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+.btnMG {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    border: none;
+}
+
+.cantLike {
+    width: 60px;
+}
+.listaComentarios {
+    list-style: none;
+    text-align: left;
+}
+
+.botonComentar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#inp {
+    background-color:transparent;
+    width: 100%;
+    
+}
+#inp:hover {
+    background-color:transparent;
+}
+
+.placeholder-red::placeholder {
+    color: red;
+  }
+
+
+
+/* sobre mi */
+.sobremi{
+    height: fit-content;
+    padding: 2em;
+    text-align:left;
+    min-width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.negro {
+    color: rgb(18, 19, 45)
+  }
+  .bi-heart{
+    color: rgb(48, 2, 2);
+    width: 60em;
+}
+.bi-heart-fill {
+color: rgb(243, 55, 127);
+}
